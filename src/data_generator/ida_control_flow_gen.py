@@ -76,9 +76,7 @@ def random_walk(g,length, symbol_map, string_map):
 
 def process_file(window_size):
     symbol_map = get_symbol_map()
-    print(symbol_map)
     string_map = get_string_map()
-    print(string_map)
     
     function_graphs = {}
     for ea in idautils.Functions():
